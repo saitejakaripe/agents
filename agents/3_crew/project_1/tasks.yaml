@@ -1,0 +1,27 @@
+virat_draft:
+  description: >
+    write a cold sales email addressed to {recipient}.
+    keep it professional and serious.
+  expected_output: "one complete cold email draft with a subject line."
+  agent: virat
+
+dhoni_draft:
+  description: >
+    write a cold sales email addressed to {recipient}.
+    keep it witty and engaging, designed to get a response.
+  expected_output: "one complete cold email draft with a subject line."
+  agent: dhoni
+
+rohit_draft:
+  description: >
+    write a cold sales email addressed to {recipient}.
+    keep it concise and to the point.
+  expected_output: "one complete cold email draft with a subject line."
+  agent: rohit
+
+pick_best:
+  description: >
+    review the three drafts above and choose the single best one.
+    output ONLY the best email.
+  expected_output: "the single best email with subject line + body."
+  agent: selector
